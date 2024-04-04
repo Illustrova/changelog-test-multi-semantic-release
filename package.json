@@ -8,11 +8,31 @@
     "node": "^20",
     "npm": "^9"
   },
+  "scripts": {
+    "release": "multi-semantic-release --ignore-packages=\"main,packages/other-package\""
+  },
   "workspaces": [
     "./packages/*",
     "main"
   ],
   "author": "Irina Illustrova",
   "devDependencies": {
+    "multi-semantic-release": "^3.0.2",
+        "@semantic-release/changelog": "^6.0.3"
+  },
+  "release": {
+    "branches": [
+      "dev"
+    ],
+        "plugins": [
+          "@semantic-release/commit-analyzer",
+          "@semantic-release/release-notes-generator",
+          [
+            "@semantic-release/changelog",
+            {
+              "changelogTitle": "# Changelog"
+            }
+          ]
+        ]
   }
 }
