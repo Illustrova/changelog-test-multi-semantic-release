@@ -1,3 +1,13 @@
+# Changelog
+
+# @changelog-test-multi-semantic-release/ui 1.0.0 (2024-04-05)
+
+
+### Bug Fixes
+
+* **button:** make red ([774a68d](https://github.com/Illustrova/changelog-test-multi-semantic-release/commit/774a68dad331359ebb49cf66feb745879e02e848))
+* **button:** recolor to blue ([1050124](https://github.com/Illustrova/changelog-test-multi-semantic-release/commit/105012447dbc9beebd04d0833e823e3d816d1806))
+
 Changelog
 
 # [1.1.0](https://github.com/Illustrova/changelog-test-semantic-release/compare/v1.0.1...v1.1.0) (2024-03-28)
