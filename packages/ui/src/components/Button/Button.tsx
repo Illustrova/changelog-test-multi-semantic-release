@@ -5,6 +5,7 @@ type ButtonProps = {
   onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void;
 };
 
+/** add comment   */
 export const Button = (props: ButtonProps) => {
   const { children, ...rest } = props;
   return (
