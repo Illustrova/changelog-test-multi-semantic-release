@@ -1,5 +1,12 @@
 # Changelog
 
+# @changelog-test-multi-semantic-release/ui [1.1.0](https://github.com/Illustrova/changelog-test-multi-semantic-release/compare/@changelog-test-multi-semantic-release/ui@1.0.0...@changelog-test-multi-semantic-release/ui@1.1.0) (2024-04-05)
+
+
+### Features
+
+* **Input:** add input component ([65f043f](https://github.com/Illustrova/changelog-test-multi-semantic-release/commit/65f043f8984da6eb2543ab4de651cf538173c2d8))
+
 # @changelog-test-multi-semantic-release/ui 1.0.0 (2024-04-05)
 
 
